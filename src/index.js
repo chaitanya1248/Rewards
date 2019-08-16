@@ -20,6 +20,8 @@ function App() {
         if (num > 100) {
           temp += (num - 100) * 2;
           temp += 50;
+monthTotal += temp;
+        return null;
         } else if (num > 50) {
           temp += num - 50;
         }
